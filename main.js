@@ -5,7 +5,7 @@ const bot = new Discord.Client({disableEveryone: true});
 const ytdl = require('ytdl-core');
 
 
-Client.login(process.env.TOKEN)
+bot.login(process.env.TOKEN)
 
 bot.commands = new Discord.Collection();
 
